@@ -1,0 +1,25 @@
+<?php
+
+#Sempre usar o $ para criação de variaveis.
+$nome = "Rafael";
+$sobrenome = "Ramos";
+
+//concatenação de variaveis;
+$nomecompleto = $nome." ".$sobrenome;
+
+echo "Teste de inicio de codigo";
+echo "<br/>";
+
+echo "$nomecompleto";
+
+exit;
+
+//unset - limpa memória;
+//isset - verifica se variavel existe;
+unset ($nome);
+	if (isset($nome)) {
+
+		echo $nome;
+	}
+
+?>
